@@ -462,8 +462,8 @@ footer {
 }
 
 .exp-img-row {
-  width: 160px;
-  height: 120px;
+  width: 60px;
+  height: 40px;
   object-fit: cover;
   object-position: center;
   border-radius: 12px;
