@@ -457,13 +457,14 @@ footer {
 .exp-content-row {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  gap: 20px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
 }
 
 .exp-img-box {
-  width: 140px;
-  height: 140px;
+  width: 40px;
+  height: 40px;
   border-radius: 14px;
   border: 1px solid var(--border);
   overflow: hidden;
@@ -477,4 +478,20 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+}
+
+.exp-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 16px rgba(138,99,210,0.12);
+  transition: transform .3s, box-shadow .3s;
+}
+
+.exp-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(138,99,210,0.2);
 }
