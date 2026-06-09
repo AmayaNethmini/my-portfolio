@@ -461,12 +461,20 @@ footer {
   gap: 20px;
 }
 
-.exp-img-row {
-  width: 60px;
-  height: 40px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 12px;
+.exp-img-box {
+  width: 140px;
+  height: 140px;
+  border-radius: 14px;
   border: 1px solid var(--border);
+  overflow: hidden;
   flex-shrink: 0;
+  background: var(--bg3);
+  box-shadow: 0 4px 20px rgba(138,99,210,0.15);
+}
+
+.exp-img-row {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
