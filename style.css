@@ -133,7 +133,7 @@ nav {
   position: relative;
 }
 .art-box {
-  width: 380px; height: 340px;
+  width: 500px; height: 460px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 20px;
