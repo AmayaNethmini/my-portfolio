@@ -446,8 +446,17 @@ footer {
 @media (max-width: 900px) {
   nav { padding: 16px 24px; }
   .nav-links { gap: 20px; }
-  .hero { grid-template-columns: 1fr; padding: 100px 24px 60px; }
-  .hero-art { display: none; }
+  .hero { grid-template-columns: 1fr; padding: 100px 24px 60px; gap: 40px; }
+  .hero-art {
+    display: flex;
+    order: -1;
+    justify-content: center;
+  }
+  .art-box {
+    width: min(100%, 420px);
+    height: 420px;
+    margin: 0 auto;
+  }
   section { padding: 70px 24px; }
   .about-grid, .edu-grid { grid-template-columns: 1fr; gap: 40px; }
   .stats-bar { grid-template-columns: 1fr 1fr; }
